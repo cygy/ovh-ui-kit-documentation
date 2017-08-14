@@ -62,7 +62,7 @@
     "angular": "^1.6.1",
     "angular-ui-router": "^0.4.2",
     "lodash": "^4.17.4",
-    "ovh-documentation-toolkit": "https://github.com/ovh-ux/ovh-documentation-toolkit.git",
+    "ovh-documentation-toolkit": "https://github.com/ovh-ux/ovh-documentation-toolkit.git#feature/group-menu-item",
     "ovh-ui-kit": "https://github.com/ovh-ux/ovh-ui-kit.git#v1.0.0-alpha.12"
   }
 }
