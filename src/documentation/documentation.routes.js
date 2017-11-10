@@ -2,7 +2,13 @@ import introductionTemplate from './introduction.md'
 import contributingTemplate from './contributing.md'
 import urlsTemplate from './urls.md'
 import componentStatusTemplate from './component-status.md'
-import lessPluginRemcalcTemplate from 'less-plugin-remcalc/README.md'
+import buttonTemplate from './button.md'
+import titleTemplate from './title.md'
+import screenTemplate from './screen.md'
+import headerTemplate from './header.md'
+import listTemplate from './list.md'
+import gridTemplate from './grid.md'
+import cellTemplate from './cell.md'
 
 export default function ($stateProvider) {
   'ngInject'
@@ -36,9 +42,39 @@ export default function ($stateProvider) {
       friendlyName: 'Component status',
       template: componentStatusTemplate
     })
-    .state('showcase.documentation.less-plugin-remcalc', {
-      url: '/less-plugin-remcalc',
-      friendlyName: 'less-plugin-remcalc',
-      template: lessPluginRemcalcTemplate
+    .state('showcase.documentation.screen', {
+      url: '/screen',
+      friendlyName: 'Screen',
+      template: screenTemplate
+    })
+    .state('showcase.documentation.header', {
+      url: '/header',
+      friendlyName: 'Header',
+      template: headerTemplate
+    })
+    .state('showcase.documentation.title', {
+      url: '/title',
+      friendlyName: 'Title',
+      template: titleTemplate
+    })
+    .state('showcase.documentation.list', {
+      url: '/list',
+      friendlyName: 'List',
+      template: listTemplate
+    })
+    .state('showcase.documentation.grid', {
+      url: '/grid',
+      friendlyName: 'Grid',
+      template: gridTemplate
+    })
+    .state('showcase.documentation.cell', {
+      url: '/cell',
+      friendlyName: 'Cell',
+      template: cellTemplate
+    })
+    .state('showcase.documentation.button', {
+      url: '/button',
+      friendlyName: 'Button',
+      template: buttonTemplate
     })
 }

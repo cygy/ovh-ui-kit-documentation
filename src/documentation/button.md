@@ -1,0 +1,32 @@
+# Button
+
+Buttons are used for various purposes like, submit or reset a form, navigate, performing interactive actions such as showing or hiding something in an app on click of the button, etc.
+
+## Syntax
+
+```javascript
+import React, { Component } from 'react'
+import { Button, Text } from 'react-native-ovh-uikit'
+
+export default class ButtonExample extends Component {
+    render() {
+        return (
+            <Button>
+                <Text>Button</Text>
+            </Button>
+        )
+    }
+}
+```
+
+## Properties
+
+| Name | Type | Default | Definition |
+| - | - | - | - |
+| style | - | - | Defines the button style. |
+| disabled | boolean | false | Set to *true* if the button must be disabled. |
+| onPress | function | - | Event triggred when the button is pressed. |
+
+## Examples
+
+![Example of Screen component](https://github.com/cygy/ovh-ui-kit-documentation/tree/react-native/src/assets/components/example.png)
