@@ -45,4 +45,4 @@ Some components can be added as children to the **Cell** component. These childr
 
 ## Examples
 
-![Example of Screen component](https://github.com/cygy/ovh-ui-kit-documentation/tree/react-native/src/assets/components/example.png)
+![Example of Screen component](https://raw.githubusercontent.com/cygy/ovh-ui-kit-documentation/react-native/src/assets/components/example.png)
