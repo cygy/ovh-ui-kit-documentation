@@ -52,4 +52,4 @@ Each cell displayed is a square. More the property **cellsByRow** of the grid is
 
 ## Examples
 
-![Example of Screen component](https://github.com/cygy/ovh-ui-kit-documentation/blob/react-native/src/assets/components/example.png)
+![Example of Screen component](https://raw.githubusercontent.com/cygy/ovh-ui-kit-documentation/react-native/src/assets/components/example.png)

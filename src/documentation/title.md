@@ -30,4 +30,4 @@ export default class TitleExample extends Component {
 
 ## Examples
 
-![Example of Screen component](https://github.com/cygy/ovh-ui-kit-documentation/blob/react-native/src/assets/components/example.png)
+![Example of Screen component](https://raw.githubusercontent.com/cygy/ovh-ui-kit-documentation/react-native/src/assets/components/example.png)
