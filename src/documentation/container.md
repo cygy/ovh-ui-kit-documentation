@@ -26,6 +26,8 @@ export default class ContainerExample extends Component {
 
 | Name | Type | Default | Definition |
 | - | - | - | - |
+| style | object | - | Style applied to the component. |
+| disabled | boolean | false | Disabled state of the component. |
 
 ## Examples
 
