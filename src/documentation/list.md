@@ -6,7 +6,8 @@ Lists represent a collection of consistent selectable cells displayed vertically
 
 ```javascript
 import React, { Component } from 'react'
-import { Screen, List, Text } from 'react-native-ovh-uikit'
+import { Image } from 'react-native'
+import { Screen, Container, List, Text } from 'react-native-ovh-uikit'
 
 export default class ListExample extends Component {
     onSelectCell = (index) => {
@@ -19,17 +20,19 @@ export default class ListExample extends Component {
 
         return (
             <Screen>
-                <List
-                    cells={[
-                        {title: "Row 1",},
-                        {title: "Row 2", subtitle: "Subtitle of row 2."},
-                        {title: "Row 3", icon: logo},
-                        {title: "Row 4", disabled: true},
-                        {title: "Row 5", children: children},
-                        {title: "Row 6", subtitle: "Subtitle of row 6.", icon: logo, children: children},
-                    ]}
-                    onSelect={onSelectCell}
-                />
+                <Container>
+                    <List
+                        cells={[
+                            {title: "Row 1",},
+                            {title: "Row 2", subtitle: "Subtitle of row 2."},
+                            {title: "Row 3", icon: logo},
+                            {title: "Row 4", disabled: true},
+                            {title: "Row 5", children: children},
+                            {title: "Row 6", subtitle: "Subtitle of row 6.", icon: logo, children: children},
+                        ]}
+                        onSelect={onSelectCell}
+                    />
+                </Container>
             <Screen>
         )
     }
@@ -40,9 +43,9 @@ export default class ListExample extends Component {
 
 | Name | Type | Default | Definition |
 | - | - | - | - |
-| cells | array | - | Array of objects to fill in the list. Each object can define the properties **title**, **subtitle**, **icon**, **children** and **disabled**. Each object represents a **Cell** component. |
+| cells | array | - | Array of objects to fill in the list. Each object can define the properties **title**, **subtitle**, **icon**, **children** and **disabled**. Each object generates a **Cell** component. |
 | onSelect | function | - | Function called when a cell is selected. |
 
 ## Examples
 
-![Example of Screen component](https://raw.githubusercontent.com/cygy/ovh-ui-kit-documentation/react-native/src/assets/components/example.png)
+![Example of List component](https://raw.githubusercontent.com/cygy/ovh-ui-kit-documentation/react-native/src/assets/components/example.png)

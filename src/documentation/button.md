@@ -25,8 +25,8 @@ export default class ButtonExample extends Component {
 | - | - | - | - |
 | style | - | - | Defines the button style. |
 | disabled | boolean | false | Set to *true* if the button must be disabled. |
-| onPress | function | - | Event triggred when the button is pressed. |
+| onPress | function | - | Event called when the button is pressed. |
 
 ## Examples
 
-![Example of Screen component](https://raw.githubusercontent.com/cygy/ovh-ui-kit-documentation/react-native/src/assets/components/example.png)
+![Example of Button component](https://raw.githubusercontent.com/cygy/ovh-ui-kit-documentation/react-native/src/assets/components/example.png)
